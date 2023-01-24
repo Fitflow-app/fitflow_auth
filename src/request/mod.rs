@@ -6,7 +6,7 @@ use validator::Validate;
 /// Once serialized, you can send using the **POST** method at `auth.fitflow.app`.
 ///
 /// ```
-/// # use fitflow_auth::Registration;
+/// # use fitflow_auth::request::Registration;
 /// #
 /// let r = Registration::new(
 ///     "email@domain.com".into(),
@@ -55,7 +55,7 @@ impl Registration {
 /// Once serialized, you can send using the **GET** method at `auth.fitflow.app`.
 ///
 /// ```
-/// # use fitflow_auth::Login;
+/// # use fitflow_auth::request::Login;
 /// #
 /// let r = Login::new(
 ///     "email@domain.com".into(),
