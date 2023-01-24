@@ -1,7 +1,12 @@
 [package]
 name = "fitflow_auth"
+description = ""
 version = "0.0.2"
 edition = "2021"
+license = "MIT"
+homepage = "https://dev.fitflow.app/"
+repository = "https://github.com/Fitflow-app/fitflow_auth"
+readme = "README"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
